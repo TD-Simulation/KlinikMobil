@@ -41,6 +41,26 @@ public class MainActivity extends AppCompatActivity
         startActivity(i);
         overridePendingTransition(android.R.anim.slide_out_right, android.R.anim.slide_in_left);
     }
+    /*public void onFanmAnsent(View v){
+        Intent i = new Intent(MainActivity.this, LoginGen.class);
+        startActivity(i);
+        overridePendingTransition(android.R.anim.slide_out_right, android.R.anim.slide_in_left);
+    }*/
+    public void onMatron(View v){
+        Intent i = new Intent(MainActivity.this, LoginMatronActivity.class);
+        startActivity(i);
+        overridePendingTransition(android.R.anim.slide_out_right, android.R.anim.slide_in_left);
+    }
+   /* public void onTimoun(View v){
+        Intent i = new Intent(MainActivity.this, LoginGen.class);
+        startActivity(i);
+        overridePendingTransition(android.R.anim.slide_out_right, android.R.anim.slide_in_left);
+    }*/
+   public void onEstatistik(View v){
+       Intent i = new Intent(MainActivity.this, EstatistikActivity.class);
+       startActivity(i);
+       overridePendingTransition(android.R.anim.slide_out_right, android.R.anim.slide_in_left);
+   }
 
     @Override
     public void onBackPressed() {
