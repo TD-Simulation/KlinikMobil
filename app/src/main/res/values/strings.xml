@@ -3,22 +3,22 @@
     <string name="action_settings">Settings</string>
     <string name="matr">M</string>
     <string name="timoun">T</string>
-    <string name="menu_search">Recherche</string>
+    <string name="menu_search">Chache</string>
     <string name="title_activity_splash_screen">SplashScreenActivity</string>
     <string name="title_activity_main">Klinik Mobil</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="title_activity_enstitisyon">Enstitisyon</string>
-    <string name="title_activity_konsey">Konsey</string>
+    <string name="title_activity_konsey">Konsèy</string>
     <string name="title_activity_estatistik">Estatistik</string>
 
     <string name="title_activity_list_fanm_ansent">ListFanmAnsentActivity</string>
 
-    <string name="title_activity_login_gen">Login</string>
-    <string name="title_ed">Ed</string>
+    <string name="title_activity_login_gen">Aksè</string>
+    <string name="title_ed">Èd</string>
     <string name="title_detay">Detay</string>
     <string name="title_activity_list_fanm_ansent_activity_ent">ListFanmAnsentActivityEnt</string>
-    <string name="title_activity_login_enterprise">Akse Antrepriz</string>
-
+    <string name="title_activity_login_enterprise">Aksè Antrepriz</string>
+<string name="title_login_matron">Aksè Matron</string>
 </resources>
