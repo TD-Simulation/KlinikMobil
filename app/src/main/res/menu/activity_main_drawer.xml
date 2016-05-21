@@ -8,9 +8,9 @@
             android:icon="@drawable/ic_enstitisyon"/>
         <item android:title="Ed"
             android:id="@+id/nav_ed"
-           android:icon="@drawable/ic_help"/>
+           android:icon="@mipmap/ic_help"/>
         <item android:title="Detay"
             android:id="@+id/nav_detay"
-           android:icon="@drawable/ic_action_name"/>
+           android:icon="@drawable/ic_about"/>
 
 </menu>
