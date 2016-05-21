@@ -9,5 +9,6 @@
     <string name="title_activity_enstitisyon">Enstitisyon</string>
     <string name="title_activity_konsey">Konsey</string>
     <string name="title_activity_estatistik">Estatistik</string>
-    <string name="title_activity_login_gen">Login</string>
+    <string name="title_activity_login_gen">Aksè</string>
+    <string name="title_activity_login_enterprise">Aksè Enstitisyon</string>
 </resources>
