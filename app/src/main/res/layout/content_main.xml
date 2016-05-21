@@ -24,16 +24,17 @@
     <ImageView
         android:layout_width="136dp"
         android:layout_height="136dp"
-        android:id="@+id/imageView5"
+        android:id="@+id/ivFanmAnsent"
         android:layout_x="232dp"
         android:layout_y="100dp"
         android:src="@drawable/ic_fanm_ansent"
-        android:onClick="onFanmAnsent" />
+        android:onClick="onFanmAnsent"
+        android:nestedScrollingEnabled="false" />
 
     <ImageView
         android:layout_width="136dp"
         android:layout_height="136dp"
-        android:id="@+id/imageView6"
+        android:id="@+id/ivMatron"
         android:layout_x="30dp"
         android:layout_y="259dp"
         android:src="@drawable/ic_matron"
@@ -42,7 +43,7 @@
     <ImageView
         android:layout_width="136dp"
         android:layout_height="136dp"
-        android:id="@+id/imageView7"
+        android:id="@+id/ivBebe"
         android:layout_x="222dp"
         android:layout_y="259dp"
         android:src="@drawable/ic_bebe_km"
@@ -51,7 +52,7 @@
     <ImageView
         android:layout_width="136dp"
         android:layout_height="136dp"
-        android:id="@+id/imageView8"
+        android:id="@+id/ivEstatistik"
         android:layout_x="123dp"
         android:layout_y="391dp"
         android:src="@drawable/ic_estatistik_km"
