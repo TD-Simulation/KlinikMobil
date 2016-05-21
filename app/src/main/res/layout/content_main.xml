@@ -15,10 +15,11 @@
     <ImageView
         android:layout_width="136dp"
         android:layout_height="136dp"
-        android:id="@+id/imageView4"
+        android:id="@+id/ivKonsey"
         android:layout_x="30dp"
         android:layout_y="100dp"
-        android:src="@drawable/ic_konsey" />
+        android:src="@drawable/ic_konsey"
+        android:onClick="onKonsey" />
 
     <ImageView
         android:layout_width="136dp"

@@ -1,5 +1,6 @@
 package com.example.carlybaja.klinikmobil.activities;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -35,6 +36,12 @@ public class MainActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
     }
 
+    public void onKonsey(View v){
+        Intent i = new Intent(MainActivity.this, KonseyActivity.class);
+        startActivity(i);
+        overridePendingTransition(android.R.anim.slide_out_right, android.R.anim.slide_in_left);
+    }
+
     @Override
     public void onBackPressed() {
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -52,7 +59,7 @@ public class MainActivity extends AppCompatActivity
         return true;
     }
 
-    
+
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
