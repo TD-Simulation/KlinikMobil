@@ -38,8 +38,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".activities.MainActivity" />
         </activity>
-        <activity android:name=".KreyeKontMatronActivity" />
-        <activity android:name=".ListFanmMatronActivity" />
         <activity android:name=".activities.KreyeKontMatronActivity" />
         <activity android:name=".activities.ListFanmMatronActivity" />
         <activity
