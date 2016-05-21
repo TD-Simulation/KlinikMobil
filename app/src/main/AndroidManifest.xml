@@ -49,7 +49,8 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".activities.MainActivity" />
         </activity>
-        <activity android:name=".activities.LoginMatronActivity"
+        <activity
+            android:name=".activities.LoginMatronActivity"
             android:label="@string/title_login_matron">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -95,15 +96,13 @@
             android:label="@string/title_activity_login_enterprise"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
-                    android:name="android.support.PARENT_ACTIVITY"
-                    android:value=".activities.MainActivity" />
-
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.MainActivity" />
         </activity>
-                <activity
-                    android:name=".activities.ListEntrepriseActivity"
-                    android:label="@string/title_activity_list_entreprise"
-                    android:theme="@style/AppTheme.NoActionBar"></activity>
-
+        <activity
+            android:name=".ListEntrepriseActivity"
+            android:label="@string/title_activity_list_entreprise"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
