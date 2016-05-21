@@ -31,6 +31,12 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ed" />
+        <activity android:name=".detay" />
+        <activity
+            android:name=".enstitisyon"
+            android:label="@string/title_activity_enstitisyon"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
