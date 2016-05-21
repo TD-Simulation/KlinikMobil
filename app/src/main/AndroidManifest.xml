@@ -88,7 +88,17 @@
             android:name=".ListFanmAnsentActivityEnt"
             android:label="@string/title_activity_list_fanm_ansent_activity_ent"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".NewFanmActivityEnt"></activity>
+        <activity android:name=".NewFanmActivityEnt" />
+        <activity
+            android:name=".activities.LoginEnterpriseActivity"
+            android:label="@string/title_activity_login_enterprise"
+            android:theme="@style/AppTheme.NoActionBar">
+
+               <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".activities.MainActivity" />
+
+        </activity>
     </application>
 
 </manifest>
