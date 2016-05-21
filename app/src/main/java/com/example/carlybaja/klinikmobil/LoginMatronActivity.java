@@ -14,8 +14,8 @@ public class LoginMatronActivity extends AppCompatActivity {
     }
 //boutton login matron
     public void onKonekt(View v){
-        //Intent konektMatron = new Intent(LoginMatronActivity.this, ListFanmMatronActivity.class);
-        //startActivity(konektMatron);
+        Intent konektMatron = new Intent(LoginMatronActivity.this, ListFanmMatronActivity.class);
+        startActivity(konektMatron);
     }
 //boutton kreye kont matron
     public void onKreye(View v){
