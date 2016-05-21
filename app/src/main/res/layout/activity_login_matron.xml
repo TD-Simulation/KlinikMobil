@@ -43,7 +43,9 @@
         android:textSize="30dp"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:onClick="onKonekt" />
+        android:onClick="onKonekt"
+        android:background="#00552e"
+        android:textColor="#ffffff" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
