@@ -1,6 +1,5 @@
-package com.example.carlybaja.klinikmobil.activities;
+package com.example.carlybaja.klinikmobil;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -18,19 +17,16 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.example.carlybaja.klinikmobil.R;
-
-public class ListFanmAnsentActivity extends AppCompatActivity
+public class ListFanmAnsentActivityEnt extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
     ListView listViewFanm;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_list_fanm_ansent);
+        setContentView(R.layout.activity_list_fanm_ansent_activity_ent);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -39,8 +35,8 @@ public class ListFanmAnsentActivity extends AppCompatActivity
                 Snackbar.make(view, "ajouter fanm ansent", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
 
-                Intent newFanm= new Intent(ListFanmAnsentActivity.this, newFanmAnsentActivity.class);
-                startActivity(newFanm);
+                //Intent newFanm= new Intent(ListFanmAnsentActivity.this, addFanmAnsentActivity.class);
+                //startActivity(newFanm);
                 Toast.makeText(getApplicationContext(),"ajouter fanm ansent", Toast.LENGTH_LONG).show();
             }
         });
@@ -55,7 +51,7 @@ public class ListFanmAnsentActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
 
         //Get ListView object
-        listViewFanm = (ListView)findViewById(R.id.listFanmAnsentEnt);
+        listViewFanm = (ListView)findViewById(R.id.listFanmAnsentEntActivity);
 
         //Defined array to show in listview
         String[] values= new String[]{
@@ -120,7 +116,7 @@ public class ListFanmAnsentActivity extends AppCompatActivity
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-         if(id == R.id.m_matron){
+        if(id == R.id.m_matron){
             Toast.makeText(getApplicationContext(),"matron", Toast.LENGTH_LONG).show();
         }else if(id == R.id.m_timoun){
             Toast.makeText(getApplicationContext(),"timoun", Toast.LENGTH_LONG).show();
