@@ -1,11 +1,4 @@
-package com.example.carlybaja.klinikmobil.activities;
-
-/**
- * Created by el che on 5/21/2016.
- */
-
-import android.support.v7.widget.SearchView;
-
+package com.example.carlybaja.klinikmobil;
 
 import android.app.SearchManager;
 import android.os.Bundle;
@@ -17,8 +10,6 @@ import android.support.v7.widget.SearchView;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.View;
-
-import com.example.carlybaja.klinikmobil.R;
 
 public class ListEntrepriseActivity extends AppCompatActivity {
 
