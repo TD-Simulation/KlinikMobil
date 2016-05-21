@@ -82,7 +82,6 @@
                     android:ems="10"
                     android:id="@+id/editText5"
                     android:layout_below="@+id/editText4"
-                    android:layout_toEndOf="@+id/textView3"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
                     android:text="DDR" />
@@ -170,8 +169,7 @@
             android:id="@+id/editText8"
             android:layout_below="@+id/editText7"
             android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true"
-            android:layout_toEndOf="@+id/textView4" />
+            android:layout_alignParentEnd="true" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -182,19 +180,30 @@
             android:layout_below="@+id/editText7"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_alignBottom="@+id/editText8"
-            android:layout_toStartOf="@+id/editText8" />
+            android:layout_alignBottom="@+id/editText8" />
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
-            android:text="Siyati Doktè a"
             android:ems="10"
             android:id="@+id/editText9"
+            android:gravity="center"
+            android:layout_below="@+id/editText8"
             android:layout_alignRight="@+id/editText8"
-            android:layout_alignEnd="@+id/editText8"
+            android:layout_alignEnd="@+id/editText8" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="siyati direktè a"
+            android:id="@+id/textView2"
             android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/textView5"
+            android:layout_below="@+id/editText9"
+            android:layout_alignRight="@+id/editText9"
+            android:layout_alignEnd="@+id/editText9"
             android:gravity="center" />
     </RelativeLayout>
 

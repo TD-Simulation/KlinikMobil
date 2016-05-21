@@ -38,8 +38,8 @@ public class ListFanmAnsentActivity extends AppCompatActivity
                 Snackbar.make(view, "ajouter fanm ansent", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
 
-                //Intent newFanm= new Intent(ListFanmAnsentActivity.this, addFanmAnsentActivity.class);
-                //startActivity(newFanm);
+                Intent newFanm= new Intent(ListFanmAnsentActivity.this, newFanmAnsentActivity.class);
+                startActivity(newFanm);
                 Toast.makeText(getApplicationContext(),"ajouter fanm ansent", Toast.LENGTH_LONG).show();
             }
         });
