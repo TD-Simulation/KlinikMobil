@@ -2,8 +2,6 @@ package com.example.carlybaja.klinikmobil.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -14,7 +12,6 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.example.carlybaja.klinikmobil.LoginGenActivity;
 import com.example.carlybaja.klinikmobil.R;
 
 public class MainActivity extends AppCompatActivity
@@ -90,9 +87,14 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.nav_enstitisyon) {
             // Handle the camera action
+           // Intent i = new Intent(MainActivity.this,);
+            // startActivity(i);
         } else if (id == R.id.nav_ed) {
+            Intent i = new Intent(MainActivity.this,ed.class);
+            startActivity(i);
 
         } else if (id == R.id.nav_detay) {
+            Intent i = new Intent(MainActivity.this,detay.class);
 
         }
 
