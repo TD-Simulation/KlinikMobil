@@ -1,4 +1,4 @@
-package com.example.carlybaja.klinikmobil.activities;
+package com.example.carlybaja.klinikmobil;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -18,19 +18,16 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.example.carlybaja.klinikmobil.R;
-
-public class ListFanmAnsentActivity extends AppCompatActivity
+public class ListFanmAnsentActivityEnt extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
     ListView listViewFanm;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_list_fanm_ansent);
+        setContentView(R.layout.activity_list_fanm_ansent_activity_ent);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -39,7 +36,7 @@ public class ListFanmAnsentActivity extends AppCompatActivity
                 Snackbar.make(view, "ajouter fanm ansent", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
 
-                Intent newFanm= new Intent(ListFanmAnsentActivity.this, newFanmAnsentActivity.class);
+                Intent newFanm= new Intent(ListFanmAnsentActivityEnt.this, NewFanmActivityEnt.class);
                 startActivity(newFanm);
                 Toast.makeText(getApplicationContext(),"ajouter fanm ansent", Toast.LENGTH_LONG).show();
             }
@@ -55,7 +52,7 @@ public class ListFanmAnsentActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
 
         //Get ListView object
-        listViewFanm = (ListView)findViewById(R.id.listFanmAnsentEnt);
+        listViewFanm = (ListView)findViewById(R.id.listFanmAnsentEntActivity);
 
         //Defined array to show in listview
         String[] values= new String[]{
@@ -89,8 +86,8 @@ public class ListFanmAnsentActivity extends AppCompatActivity
                 Toast.makeText(getApplicationContext(),
                         "Position:"+itemPos+" ListItem:"+itemValue, Toast.LENGTH_LONG).show();
 
-                //Intent viewFanm = new Intent(ListFanmAnsentActivity.this, EditFanmAnsentActivity.class);
-                //startActivity(viewFanm);
+                Intent viewFanm = new Intent(ListFanmAnsentActivityEnt.this, NewFanmActivityEnt.class);
+                startActivity(viewFanm);
             }
         });
     }
@@ -108,7 +105,7 @@ public class ListFanmAnsentActivity extends AppCompatActivity
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.list_fanm_ansent, menu);
+        getMenuInflater().inflate(R.menu.list_fanm_ansent_activity_ent, menu);
         return true;
     }
 
@@ -120,7 +117,7 @@ public class ListFanmAnsentActivity extends AppCompatActivity
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-         if(id == R.id.m_matron){
+        if(id == R.id.m_matron){
             Toast.makeText(getApplicationContext(),"matron", Toast.LENGTH_LONG).show();
         }else if(id == R.id.m_timoun){
             Toast.makeText(getApplicationContext(),"timoun", Toast.LENGTH_LONG).show();
@@ -138,23 +135,23 @@ public class ListFanmAnsentActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_parametre) {
-            //Intent parametre= new Intent(ListFanmAnsentActivity.this, );
+            //Intent parametre= new Intent(ListFanmAnsentActivityEnt.this, );
             //startActivity(parametre);
             Toast.makeText(getApplicationContext(),"parametre", Toast.LENGTH_LONG).show();
         } else if (id == R.id.nav_jere_itilizate) {
-            //Intent jere_itiliate= new Intent(ListFanmAnsentActivity.this, );
+            //Intent jere_itiliate= new Intent(ListFanmAnsentActivityEnt.this, );
             //startActivity(jere_itiliate);
             Toast.makeText(getApplicationContext(),"jere itilizate", Toast.LENGTH_LONG).show();
         } else if (id == R.id.nav_list_visit) {
-            //Intent list_visit= new Intent(ListFanmAnsentActivity.this, );
+            //Intent list_visit= new Intent(ListFanmAnsentActivityEnt.this, );
             //startActivity(list_visit);
             Toast.makeText(getApplicationContext(),"list vizit", Toast.LENGTH_LONG).show();
         } else if (id == R.id.nav_list_acouchman_prevu) {
-            //Intent acouchman_prevu= new Intent(ListFanmAnsentActivity.this, );
+            //Intent acouchman_prevu= new Intent(ListFanmAnsentActivityEnt.this, );
             //startActivity(acouchman_prevu);
             Toast.makeText(getApplicationContext(),"acouchman prevu", Toast.LENGTH_LONG).show();
         }else if (id == R.id.nav_list_vizit_par_matron) {
-            //Intent vizit_par_matron= new Intent(ListFanmAnsentActivity.this, );
+            //Intent vizit_par_matron= new Intent(ListFanmAnsentActivityEnt.this, );
             //startActivity(vizit_par_matron);
             Toast.makeText(getApplicationContext(),"Fanm ansent", Toast.LENGTH_LONG).show();
         }
@@ -162,5 +159,6 @@ public class ListFanmAnsentActivity extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
-    }
+
+}
 }

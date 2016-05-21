@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.carlybaja.klinikmobil" >
+    package="com.example.carlybaja.klinikmobil">
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_icon_nav"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme">
         <activity
             android:name=".activities.DeskActivity"
             android:label="@string/app_name"
@@ -15,7 +15,7 @@
         <activity
             android:name=".activities.SplashScreenActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,16 +25,17 @@
         <activity
             android:name=".activities.MainActivity"
             android:label="@string/title_activity_main"
-            android:theme="@style/AppTheme.NoActionBar" >
-        </activity>
-        <activity android:name=".activities.ed"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.ed"
             android:label="@string/title_ed"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".activities.MainActivity" />
         </activity>
-        <activity android:name=".activities.detay"
+        <activity
+            android:name=".activities.detay"
             android:label="@string/title_detay"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
@@ -45,26 +46,24 @@
             android:name=".activities.enstitisyon"
             android:label="@string/title_activity_enstitisyon">
             <meta-data
-              android:name="android.support.PARENT_ACTIVITY"
-             android:value=".activities.MainActivity" />
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.MainActivity" />
         </activity>
-        <activity android:name=".activities.LoginMatronActivity" >
+        <activity android:name=".activities.LoginMatronActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".activities.MainActivity" />
         </activity>
         <activity android:name=".activities.KreyeKontMatronActivity" />
         <activity android:name=".activities.ListFanmMatronActivity">
-
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".activities.MainActivity" />
-
         </activity>
         <activity
             android:name=".activities.KonseyActivity"
             android:label="@string/title_activity_konsey"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".activities.MainActivity" />
@@ -72,7 +71,7 @@
         <activity
             android:name=".activities.EstatistikActivity"
             android:label="@string/title_activity_estatistik"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".activities.MainActivity" />
@@ -80,11 +79,16 @@
         <activity
             android:name=".activities.LoginGenActivity"
             android:label="@string/title_activity_login_gen"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".activities.MainActivity" />
         </activity>
+        <activity
+            android:name=".ListFanmAnsentActivityEnt"
+            android:label="@string/title_activity_list_fanm_ansent_activity_ent"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".NewFanmActivityEnt"></activity>
     </application>
 
 </manifest>

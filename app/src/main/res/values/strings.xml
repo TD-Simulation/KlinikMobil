@@ -18,5 +18,6 @@
     <string name="title_activity_login_gen">Login</string>
     <string name="title_ed">Ed</string>
     <string name="title_detay">Detay</string>
+    <string name="title_activity_list_fanm_ansent_activity_ent">ListFanmAnsentActivityEnt</string>
 
 </resources>
