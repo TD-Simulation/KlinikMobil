@@ -20,5 +20,7 @@
     <string name="title_detay">Detay</string>
     <string name="title_activity_list_fanm_ansent_activity_ent">ListFanmAnsentActivityEnt</string>
     <string name="title_activity_login_enterprise">Akse Antrepriz</string>
+    <string name="title_activity_list_entreprise">ListEntrepriseActivity</string>
+    <string name="srch">search</string>
 
 </resources>
