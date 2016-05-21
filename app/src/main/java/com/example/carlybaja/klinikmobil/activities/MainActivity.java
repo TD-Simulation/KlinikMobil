@@ -95,6 +95,7 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_detay) {
             Intent i = new Intent(MainActivity.this,detay.class);
+            startActivity(i);
 
         }
 

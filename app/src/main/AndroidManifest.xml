@@ -27,12 +27,23 @@
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
-        <activity android:name=".activities.ed" />
-        <activity android:name=".activities.detay" />
+        <activity android:name=".activities.ed"
+            android:label="@string/title_ed"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.MainActivity" />
+        </activity>
+        <activity android:name=".activities.detay"
+            android:label="@string/title_detay"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.MainActivity" />
+        </activity>
         <activity
             android:name=".activities.enstitisyon"
-            android:label="@string/title_activity_enstitisyon"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:label="@string/title_activity_enstitisyon">
             <meta-data
               android:name="android.support.PARENT_ACTIVITY"
              android:value=".activities.MainActivity" />
