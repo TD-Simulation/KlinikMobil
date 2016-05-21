@@ -1,9 +1,11 @@
-package com.example.carlybaja.klinikmobil;
+package com.example.carlybaja.klinikmobil.activities;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+
+import com.example.carlybaja.klinikmobil.R;
 
 public class LoginMatronActivity extends AppCompatActivity {
 
