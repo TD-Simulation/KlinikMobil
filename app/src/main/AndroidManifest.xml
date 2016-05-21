@@ -38,7 +38,8 @@
             android:name=".enstitisyon"
             android:label="@string/title_activity_enstitisyon"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".LoginMatronActivity"></activity>
+        <activity android:name=".LoginMatronActivity" />
+        <activity android:name=".KreyeKontMatronActivity"></activity>
     </application>
 
 </manifest>
