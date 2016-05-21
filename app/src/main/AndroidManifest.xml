@@ -25,7 +25,7 @@
         <activity
             android:name=".activities.MainActivity"
             android:label="@string/title_activity_main"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".activities.ed"
             android:label="@string/title_ed"
@@ -87,7 +87,8 @@
         <activity
             android:name=".ListFanmAnsentActivityEnt"
             android:label="@string/title_activity_list_fanm_ansent_activity_ent"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".NewFanmActivityEnt"></activity>
     </application>
 
 </manifest>
