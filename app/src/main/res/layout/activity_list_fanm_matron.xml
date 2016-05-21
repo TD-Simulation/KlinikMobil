@@ -10,7 +10,8 @@
     tools:context="com.example.carlybaja.klinikmobil.ListFanmMatronActivity">
     <ListView
         android:layout_width="wrap_content"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:id="@+id/listFanmAnsent">
 
     </ListView>
 </RelativeLayout>
