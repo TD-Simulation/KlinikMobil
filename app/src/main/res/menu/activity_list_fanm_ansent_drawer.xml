@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_parametre"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Parametre" />
+        <item
+            android:id="@+id/nav_jere_itilizate"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Jere itilizatè" />
+    </group>
+
+    <item android:title="RAPO">
+        <menu>
+            <item
+                android:id="@+id/nav_list_visit"
+                android:icon="@drawable/ic_menu_send"
+                android:title="list vizit" />
+            <item
+                android:id="@+id/nav_list_acouchman_prevu"
+                android:icon="@drawable/ic_menu_send"
+                android:title="list acouchman prevu" />
+            <item
+                android:id="@+id/nav_list_vizit_par_matron"
+                android:icon="@drawable/ic_menu_send"
+                android:title="list vizit par matron" />
+        </menu>
+    </item>
+
+</menu>
