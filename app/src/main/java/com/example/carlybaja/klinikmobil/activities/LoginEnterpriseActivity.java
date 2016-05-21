@@ -2,8 +2,6 @@ package com.example.carlybaja.klinikmobil.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
@@ -19,17 +17,18 @@ public class LoginEnterpriseActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
     }
 
-    //public void onLogEntreprise(View v){
-      //  Intent j = new Intent(LoginEnterpriseActivity.this,);
-        //startActivity(j);
-    //}
 
-    //public void onKreyeEntreprise(View v){
-        //  Intent j = new Intent(LoginEnterpriseActivity.this,);
-        //startActivity(j);
-        //}
+
+    public void onLogEntreprise(View v){
+        Intent j = new Intent(LoginEnterpriseActivity.this, ListEntrepriseActivity.class);
+        startActivity(j);
+    }
+
+   // public void onKreyeEntreprise(View v){
+          //Intent j = new Intent(LoginEnterpriseActivity.this,);
+     //     startActivity(j);
+     //   }
 
 }
