@@ -18,7 +18,7 @@
         android:textStyle="normal|bold"
         android:textSize="30dp"
         android:gravity="left|center"
-        android:layout_alignTop="@+id/editText"
+        android:layout_alignTop="@+id/kodAntre"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:inputType="number"
         android:ems="10"
-        android:id="@+id/editText"
+        android:id="@+id/kodAntre"
         android:layout_above="@+id/button"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
@@ -42,7 +42,8 @@
         android:id="@+id/button"
         android:textSize="30dp"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="onKonekt" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
@@ -53,5 +54,6 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:textSize="16dp" />
+        android:textSize="16dp"
+        android:onClick="onKreye" />
 </RelativeLayout>
