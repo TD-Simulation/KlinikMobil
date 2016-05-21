@@ -16,5 +16,6 @@
     <string name="title_activity_list_fanm_ansent">ListFanmAnsentActivity</string>
 
     <string name="title_activity_login_gen">Login</string>
+    <string name="title_activity_login_entreprise">LoginEntrepriseActivity</string>
 
 </resources>
