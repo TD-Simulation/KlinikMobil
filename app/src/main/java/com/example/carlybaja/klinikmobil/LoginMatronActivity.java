@@ -19,7 +19,7 @@ public class LoginMatronActivity extends AppCompatActivity {
     }
 //boutton kreye kont matron
     public void onKreye(View v){
-        //Intent kreyeMatron = new Intent(LoginMatronActivity.this, KreyeKontMatronActivity.class);
-       // startActivity(kreyeMatron);
+        Intent kreyeMatron = new Intent(LoginMatronActivity.this, KreyeKontMatronActivity.class);
+        startActivity(kreyeMatron);
     }
 }
