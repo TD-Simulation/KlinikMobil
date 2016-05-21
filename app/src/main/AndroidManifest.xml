@@ -9,8 +9,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".DeskActivity"
+            android:name=".activities.DeskActivity"
             android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.SplashScreenActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,30 +23,34 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SplashScreenActivity"
-            android:label="@string/title_activity_splash_screen"
-            android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".MainActivity"
+            android:name=".activities.MainActivity"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".ed" />
-        <activity android:name=".detay" />
+        <activity android:name=".activities.ed" />
+        <activity android:name=".activities.detay" />
         <activity
-            android:name=".enstitisyon"
+            android:name=".activities.enstitisyon"
             android:label="@string/title_activity_enstitisyon"
             android:theme="@style/AppTheme.NoActionBar" />
+<<<<<<< HEAD
 
         <activity android:name=".LoginMatronActivity" />
         <activity android:name=".KreyeKontMatronActivity"></activity>
 =======
         <activity android:name=".ListFanmMatronActivity"></activity>
+=======
+        <activity android:name=".activities.LoginMatronActivity" />
+        <activity android:name=".activities.KreyeKontMatronActivity" />
+        <activity android:name=".activities.ListFanmMatronActivity" />
+        <activity
+            android:name=".activities.KonseyActivity"
+            android:label="@string/title_activity_konsey"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.EstatistikActivity"
+            android:label="@string/title_activity_estatistik"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+>>>>>>> refs/remotes/origin/master
     </application>
 
 </manifest>

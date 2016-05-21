@@ -7,4 +7,6 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="title_activity_enstitisyon">enstitisyon</string>
+    <string name="title_activity_konsey">KonseyActivity</string>
+    <string name="title_activity_estatistik">EstatistikActivity</string>
 </resources>
