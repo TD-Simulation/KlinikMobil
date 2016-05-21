@@ -13,6 +13,7 @@ public class LoginMatronActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_matron);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 //boutton login matron
     public void onKonekt(View v){

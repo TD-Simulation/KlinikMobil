@@ -12,5 +12,9 @@
     <string name="title_activity_enstitisyon">Enstitisyon</string>
     <string name="title_activity_konsey">Konsey</string>
     <string name="title_activity_estatistik">Estatistik</string>
+<<<<<<< HEAD
     <string name="title_activity_list_fanm_ansent">ListFanmAnsentActivity</string>
+=======
+    <string name="title_activity_login_gen">Login</string>
+>>>>>>> refs/remotes/origin/master
 </resources>
