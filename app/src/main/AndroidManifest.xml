@@ -25,14 +25,24 @@
         <activity
             android:name=".activities.MainActivity"
             android:label="@string/title_activity_main"
+<<<<<<< HEAD
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+=======
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
+>>>>>>> refs/remotes/origin/master
         <activity android:name=".activities.ed" />
         <activity android:name=".activities.detay" />
         <activity
             android:name=".activities.enstitisyon"
             android:label="@string/title_activity_enstitisyon"
             android:theme="@style/AppTheme.NoActionBar" />
+<<<<<<< HEAD
+        <activity android:name=".LoginMatronActivity" />
+        <activity android:name=".KreyeKontMatronActivity" />
+        <activity android:name=".ListFanmMatronActivity" />
+        <activity android:name=".activities.LoginMatronActivity" />
+=======
         <activity android:name=".activities.LoginMatronActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -40,6 +50,7 @@
         </activity>
         <activity android:name=".KreyeKontMatronActivity" />
         <activity android:name=".ListFanmMatronActivity" />
+>>>>>>> refs/remotes/origin/master
         <activity android:name=".activities.KreyeKontMatronActivity" />
         <activity android:name=".activities.ListFanmMatronActivity" />
         <activity
@@ -53,6 +64,13 @@
         <activity
             android:name=".activities.EstatistikActivity"
             android:label="@string/title_activity_estatistik"
+<<<<<<< HEAD
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.ListFanmAnsentActivity"
+            android:label="@string/title_activity_list_fanm_ansent"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+=======
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -66,6 +84,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".activities.MainActivity" />
         </activity>
+>>>>>>> refs/remotes/origin/master
     </application>
 
 </manifest>
