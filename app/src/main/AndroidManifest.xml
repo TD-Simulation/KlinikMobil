@@ -38,8 +38,12 @@
             android:name=".enstitisyon"
             android:label="@string/title_activity_enstitisyon"
             android:theme="@style/AppTheme.NoActionBar" />
+<<<<<<< HEAD
         <activity android:name=".LoginMatronActivity" />
         <activity android:name=".KreyeKontMatronActivity"></activity>
+=======
+        <activity android:name=".ListFanmMatronActivity"></activity>
+>>>>>>> refs/remotes/origin/ListFanmMatronActivity
     </application>
 
 </manifest>
