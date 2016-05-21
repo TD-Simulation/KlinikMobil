@@ -17,7 +17,6 @@ public class EstatistikActivity extends AppCompatActivity {
         setContentView(R.layout.activity_estatistik);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
 }

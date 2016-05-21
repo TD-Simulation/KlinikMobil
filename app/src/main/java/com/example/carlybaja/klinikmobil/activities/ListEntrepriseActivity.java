@@ -1,4 +1,4 @@
-package com.example.carlybaja.klinikmobil;
+package com.example.carlybaja.klinikmobil.activities;
 
 import android.app.SearchManager;
 import android.os.Bundle;
@@ -11,6 +11,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.View;
 
+import com.example.carlybaja.klinikmobil.R;
+
 public class ListEntrepriseActivity extends AppCompatActivity {
 
     @Override
@@ -19,6 +21,7 @@ public class ListEntrepriseActivity extends AppCompatActivity {
         setContentView(R.layout.activity_list_entreprise);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
