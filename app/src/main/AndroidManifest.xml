@@ -32,14 +32,24 @@
         <activity
             android:name=".activities.enstitisyon"
             android:label="@string/title_activity_enstitisyon"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+              android:name="android.support.PARENT_ACTIVITY"
+             android:value=".activities.MainActivity" />
+        </activity>
         <activity android:name=".activities.LoginMatronActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".activities.MainActivity" />
         </activity>
         <activity android:name=".activities.KreyeKontMatronActivity" />
-        <activity android:name=".activities.ListFanmMatronActivity" />
+        <activity android:name=".activities.ListFanmMatronActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.MainActivity" />
+
+        </activity>
         <activity
             android:name=".activities.KonseyActivity"
             android:label="@string/title_activity_konsey"
@@ -57,7 +67,7 @@
                 android:value=".activities.MainActivity" />
         </activity>
         <activity
-            android:name=".LoginGenActivity"
+            android:name=".activities.LoginGenActivity"
             android:label="@string/title_activity_login_gen"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data

@@ -41,7 +41,7 @@
         android:id="@+id/button"
         android:background="@drawable/selector"
         android:layout_gravity="left|center_horizontal"
-        android:onClick="checkLogin"
+        android:onClick="onKonekt"
         android:textColor="#ffffff"
         android:layout_marginLeft="15dp" />
     <Button
@@ -52,7 +52,7 @@
         android:id="@+id/kreye"
         android:background="@drawable/selector"
         android:layout_gravity="center_horizontal|right"
-        android:onClick="checkLogin"
+        android:onClick="onKreye"
         android:textColor="#ffffff"
         android:layout_marginLeft="15dp" />
 

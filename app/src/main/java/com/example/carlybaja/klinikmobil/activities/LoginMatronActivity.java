@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 import com.example.carlybaja.klinikmobil.R;
 
@@ -22,7 +23,8 @@ public class LoginMatronActivity extends AppCompatActivity {
     }
 //boutton kreye kont matron
     public void onKreye(View v){
-        Intent kreyeMatron = new Intent(LoginMatronActivity.this, KreyeKontMatronActivity.class);
-        startActivity(kreyeMatron);
+//        Intent kreyeMatron = new Intent(LoginMatronActivity.this, KreyeKontMatronActivity.class);
+//        startActivity(kreyeMatron);
+        Toast.makeText(getApplicationContext(),"Nap kontakte nan on ti moman",Toast.LENGTH_LONG).show();
     }
 }
