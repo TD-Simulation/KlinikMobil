@@ -25,7 +25,9 @@
         <activity
             android:name=".activities.MainActivity"
             android:label="@string/title_activity_main"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar" >
+
+        </activity>
         <activity android:name=".activities.ed" />
         <activity android:name=".activities.detay" />
         <activity
@@ -42,7 +44,11 @@
         <activity
             android:name=".activities.KonseyActivity"
             android:label="@string/title_activity_konsey"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.MainActivity" />
+        </activity>
         <activity
             android:name=".activities.EstatistikActivity"
             android:label="@string/title_activity_estatistik"
