@@ -9,7 +9,7 @@
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress"
         android:ems="10"
-        android:id="@+id/username"
+        android:id="@+id/nomUser"
         android:drawableLeft="@drawable/ic_user"
         android:hint="Itilizatè"
         android:layout_marginTop="170dp"
@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:inputType="textPassword"
         android:ems="10"
-        android:id="@+id/password"
+        android:id="@+id/passUser"
         android:drawableLeft="@drawable/ic_lock"
         android:hint="Kòd sekrè"
         android:layout_marginTop="10dp"
@@ -40,7 +40,7 @@
         android:id="@+id/button"
         android:background="@drawable/selector"
         android:layout_gravity="left|center_horizontal"
-        android:onClick="checkLogin"
+        android:onClick="onKonektGen"
         android:textColor="#ffffff"
         android:layout_marginLeft="15dp" />
     <Button
@@ -51,7 +51,7 @@
         android:id="@+id/kreye"
         android:background="@drawable/selector"
         android:layout_gravity="center_horizontal|right"
-        android:onClick="checkLogin"
+        android:onClick="onKreateK"
         android:textColor="#ffffff"
         android:layout_marginLeft="15dp" />
 
@@ -64,6 +64,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="40dp"
         android:textColor="#00552E"
-        android:clickable="true" />
+        android:clickable="true"
+        android:onClick="onOubliPass" />
 
 </LinearLayout>
