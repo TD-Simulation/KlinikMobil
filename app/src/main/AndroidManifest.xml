@@ -32,13 +32,10 @@
             android:name=".activities.enstitisyon"
             android:label="@string/title_activity_enstitisyon"
             android:theme="@style/AppTheme.NoActionBar" />
-<<<<<<< HEAD
 
         <activity android:name=".LoginMatronActivity" />
         <activity android:name=".KreyeKontMatronActivity"></activity>
-=======
         <activity android:name=".ListFanmMatronActivity"></activity>
-=======
         <activity android:name=".activities.LoginMatronActivity" />
         <activity android:name=".activities.KreyeKontMatronActivity" />
         <activity android:name=".activities.ListFanmMatronActivity" />
@@ -50,7 +47,6 @@
             android:name=".activities.EstatistikActivity"
             android:label="@string/title_activity_estatistik"
             android:theme="@style/AppTheme.NoActionBar"></activity>
->>>>>>> refs/remotes/origin/master
     </application>
 
 </manifest>
