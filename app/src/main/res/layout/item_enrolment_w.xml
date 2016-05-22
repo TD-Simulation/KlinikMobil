@@ -39,7 +39,8 @@
         android:layout_below="@+id/tvLastname"
         android:layout_toRightOf="@+id/ibPhone"
         android:layout_toEndOf="@+id/ibPhone"
-        android:layout_alignBottom="@+id/ibPhone" />
+        android:layout_alignBottom="@+id/ibPhone"
+        android:onClick="onIm" />
 
     <ImageButton
         android:layout_width="wrap_content"
@@ -48,6 +49,7 @@
         android:background="@drawable/ic_phone"
         android:layout_below="@+id/tvLastname"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:onClick="onIm" />
 
 </RelativeLayout>
