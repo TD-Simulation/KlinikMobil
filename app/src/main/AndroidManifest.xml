@@ -110,11 +110,11 @@
         </activity>
         <activity
             android:name=".LisTimounActivityEnt"
-            android:label="@string/title_activity_lis_timoun_activity_ent"
+            android:label="Lis Timoun"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".NewTimounActivity"
-            android:label="@string/title_activity_new_timoun"
+            android:label="Nouvo Timoun"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
