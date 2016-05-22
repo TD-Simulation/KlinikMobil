@@ -56,7 +56,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".activities.MainActivity" />
         </activity>
-        <activity android:name=".activities.KreyeKontMatronActivity" />
         <activity android:name=".activities.ListFanmMatronActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -100,7 +99,7 @@
                 android:value=".activities.MainActivity" />
         </activity>
         <activity
-            android:name=".ListEntrepriseActivity"
+            android:name=".activities.ListEntrepriseActivity"
             android:label="@string/title_activity_list_entreprise"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
