@@ -13,7 +13,7 @@
     <string name="title_activity_konsey">Konsèy</string>
     <string name="title_activity_estatistik">Estatistik</string>
 
-    <string name="title_activity_list_fanm_ansent">ListFanmAnsentActivity</string>
+    <string name="title_activity_list_fanm_ansent">List Fanm Ansent</string>
 
     <string name="title_activity_login_gen">Aksè</string>
     <string name="title_ed">Èd</string>
@@ -25,6 +25,6 @@
     <string name="title_login_matron">Aksè Matron</string>
     <string name="srch">search</string>
     <string name="title_activity_list_entreprise">Lis Enstitisyon</string>
-    <string name="title_activity_lis_timoun_activity_ent">LisTimounActivityEnt</string>
-    <string name="title_activity_new_timoun">NewTimounActivity</string>
+    <string name="title_activity_lis_timoun_activity_ent">List Timoun</string>
+    <string name="title_activity_new_timoun">Nouvo Timoun</string>
 </resources>

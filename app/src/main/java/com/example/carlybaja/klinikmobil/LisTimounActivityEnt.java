@@ -33,12 +33,12 @@ public class LisTimounActivityEnt extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "ajouter fanm ansent", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "ajouter timoun", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
 
                 Intent newFanm= new Intent(LisTimounActivityEnt.this, NewTimounActivity.class);
                 startActivity(newFanm);
-                Toast.makeText(getApplicationContext(),"Ajoute nivo timoun", Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),"Ajoute nouvo timoun", Toast.LENGTH_LONG).show();
             }
         });
 
@@ -56,11 +56,12 @@ public class LisTimounActivityEnt extends AppCompatActivity
 
         //Defined array to show in listview
         String[] values= new String[]{
-                "1-\nNom: Samuel Mathids \nAdr: 2 nazon, Port-Au-Prince, \nTel: +509 32 32 20 24\n",
-                "2-\nNom: Noah Josh \nAdr: 3 Mariani, Carrefour, \nTel: +509 31 33 24 20\n",
-                "3-\nNom: Alice Jeanne \nAdr: 20 Rte Turgeau, Port-Au-Prince, \nTel: +509 41 24 43 25\n",
-                "4-\nNom: Eliazar Augustin \nAdr: 12 Carrefour-feuille, \nTel: +509 75 23 10 21\n",
-                "5-\nNom: Ritha Joseph-Jeanne \nAdr: 32 Bicentenaire, \nTel: +509 81 20 32 45\n"
+                "1-\nNom\t\t\t\t\t\t\t:\tTheolien Marc \nLi fet\t\t\t\t\t\t\t:\t29 mas 2016\nNom manman:\tMe Mona Augustin\nNan lopital\t\t\t:\tHopital St francois(HSF)",
+                "2-\nNom\t\t\t\t\t\t\t:\tJean Thierry \nLi fet\t\t\t\t\t\t\t:\t20 avril 2016\nNom manman:\tMe Izma Jean\nNan lopital\t\t\t:\tHopital St francois(HSF)",
+                "3-\nNom\t\t\t\t\t\t\t:\tDjason Augustin \nLi fet\t\t\t\t\t\t\t:\t05 mai 2015\nNom manman:\tMe Anne Myrlin\nNan lopital\t\t\t:\tHopital St francois(HSF)",
+                "3-\nNom\t\t\t\t\t\t\t:\tBaja Marc \nLi fet\t\t\t\t\t\t\t:\t03 Janvier 2015\nNom manman:\tMe Mirline Jean\nNan lopital\t\t\t:\tHopital St francois(HSF)",
+                "3-\nNom\t\t\t\t\t\t\t:\tBaja Marc \nLi fet\t\t\t\t\t\t\t:\t04 fevrier 2016\nNom manman:\tMe Mirline Jean\nNan lopital\t\t\t:\tHopital St francois(HSF)",
+
         };
 
         //Define A new Adapter
@@ -86,8 +87,8 @@ public class LisTimounActivityEnt extends AppCompatActivity
                 Toast.makeText(getApplicationContext(),
                         "Position:"+itemPos+" ListItem:"+itemValue, Toast.LENGTH_LONG).show();
 
-                Intent viewFanm = new Intent(LisTimounActivityEnt.this, NewTimounActivity.class);
-                startActivity(viewFanm);
+               // Intent viewFanm = new Intent(LisTimounActivityEnt.this, NewTimounActivity.class);
+               // startActivity(viewFanm);
             }
         });
     }

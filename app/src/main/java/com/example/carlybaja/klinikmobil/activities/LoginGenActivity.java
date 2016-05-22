@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.example.carlybaja.klinikmobil.LisTimounActivityEnt;
 import com.example.carlybaja.klinikmobil.ListFanmAnsentActivityEnt;
 import com.example.carlybaja.klinikmobil.R;
 
@@ -38,8 +39,8 @@ public class LoginGenActivity extends AppCompatActivity {
             startActivity(konektGen);
         }else if(inputUser.equals("timoun") && inputPass.equals("4321")){
             Toast.makeText(getApplicationContext(),"information timoun yo",Toast.LENGTH_LONG).show();
-           // Intent konektGen = new Intent(LoginGenActivity.this, ListFanmAnsentActivityEnt.class);
-           // startActivity(konektGen);
+            Intent konektGen = new Intent(LoginGenActivity.this, LisTimounActivityEnt.class);
+            startActivity(konektGen);
         }else{
             Toast.makeText(getApplicationContext(),"sisteme nan pa rekonet information sa",Toast.LENGTH_LONG).show();
         }
