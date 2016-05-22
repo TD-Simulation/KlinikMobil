@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity
         overridePendingTransition(android.R.anim.slide_out_right, android.R.anim.slide_in_left);
     }
    public void onEstatistik(View v){
-       Intent i = new Intent(MainActivity.this, EstatistikActivity.class);
+       Intent i = new Intent(MainActivity.this, StatistikActivity.class);
        startActivity(i);
        overridePendingTransition(android.R.anim.slide_out_right, android.R.anim.slide_in_left);
    }

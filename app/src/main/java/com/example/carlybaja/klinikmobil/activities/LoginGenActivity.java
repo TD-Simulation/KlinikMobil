@@ -48,16 +48,16 @@ public class LoginGenActivity extends AppCompatActivity {
         editUser=(EditText) findViewById(R.id.userInput);
         inputUser= editUser.getText().toString();
         if(inputUser.equals("")){
-            Toast.makeText(getApplicationContext(),"ranpli chan nom itilizate a",Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(),"Ranpli chan nom itilizate a",Toast.LENGTH_LONG).show();
         }else if(inputUser.equals("timoun") || inputUser.equals("fanm")){
-            Toast.makeText(getApplicationContext(),"nap kontakte nan yon ti moman",Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(),"Nap kontakte nan yon ti moman",Toast.LENGTH_LONG).show();
         }else{
-            Toast.makeText(getApplicationContext(),"information sa pa korek",Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(),"Information sa pa korek",Toast.LENGTH_LONG).show();
         }
     }
 
     public void onKreye(View v){
-        Toast.makeText(getApplicationContext(),"",Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(),"Pase nan on enstitisyon pou ou ka enskri",Toast.LENGTH_LONG).show();
     }
 
 }
