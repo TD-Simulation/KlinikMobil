@@ -26,9 +26,9 @@ public class LoginEnterpriseActivity extends AppCompatActivity {
         startActivity(j);
     }
 
-   // public void onKreyeEntreprise(View v){
-          //Intent j = new Intent(LoginEnterpriseActivity.this,);
-     //     startActivity(j);
-     //   }
+    public void onKreyeEntreprise(View v){
+          Intent j = new Intent(LoginEnterpriseActivity.this, SaveEnterpriseActivity.class);
+          startActivity(j);
+        }
 
 }
