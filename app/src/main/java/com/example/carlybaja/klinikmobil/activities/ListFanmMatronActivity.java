@@ -24,11 +24,11 @@ public class ListFanmMatronActivity extends AppCompatActivity {
 
         //Defined array to show in listview
         String[] values= new String[]{
-                "1-\nNom: Marie Mona \nAdr: 2 nazon, Port-Au-Prince, \nTel: +509 32 32 20 24\n",
-                "2-\nNom: Mistafa Jean \nAdr: 3 Mariani, Carrefour, \nTel: +509 31 33 24 20\n",
-                "3-\nNom: Alice Jeanne \nAdr: 20 Rte Turgeau, Port-Au-Prince, \nTel: +509 41 24 43 25\n",
-                "4-\nNom: Eliza Augustin \nAdr: 12 Carrefour-feuille, \nTel: +509 75 23 10 21\n",
-                "5-\nNom: Ritha Joseph-Jeanne \nAdr: 32 Bicentenaire, \nTel: +509 81 20 32 45\n"
+                "1-\nNom\t\t\t\t\t\t\t:\tMarie Mona \nAdr\t\t\t\t\t\t\t\t:\t2 nazon, P-A-P, \nTel\t\t\t\t\t\t\t\t:\t+509 32 32 20 24\n",
+                "2-\nNom\t\t\t\t\t\t\t:\tMistafa Jean \nAdr\t\t\t\t\t\t\t\t:\t3 Mariani, Carrefour, \nTel\t\t\t\t\t\t\t\t:\t509 31 33 24 20\n",
+                "3-\nNom\t\t\t\t\t\t\t:\tAlice Jeanne \nAdr\t\t\t\t\t\t\t\t:\t20 Rte Turgeau, P-A-P, \nTel\t\t\t\t\t\t\t\t:\t+509 41 24 43 25\n",
+                "4-\nNom\t\t\t\t\t\t\t:\tEliza Augustin \nAdr\t\t\t\t\t\t\t\t:\t12 Carrefour-feuille, \nTel\t\t\t\t\t\t\t\t:\t+509 75 23 10 21\n",
+                "5-\nNom\t\t\t\t\t\t\t:\tRitha Joseph-Jeanne \nAdr\t\t\t\t\t\t\t\t:\t32 Bicentenaire, \nTel\t\t\t\t\t\t\t\t:\t+509 81 20 32 45\n"
         };
 
         //Define A new Adapter
