@@ -27,7 +27,7 @@ public class LisTimounActivityEnt extends AppCompatActivity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_list_fanm_ansent_activity_ent);
+        setContentView(R.layout.activity_lis_timoun_activity_ent);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -140,19 +140,19 @@ public class LisTimounActivityEnt extends AppCompatActivity
         if (id == R.id.nav_parametre) {
             //Intent parametre= new Intent(ListFanmAnsentActivityEnt.this, );
             //startActivity(parametre);
-            Toast.makeText(getApplicationContext(),"parametre", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(),"Paramt", Toast.LENGTH_LONG).show();
         } else if (id == R.id.nav_jere_itilizate) {
             //Intent jere_itiliate= new Intent(ListFanmAnsentActivityEnt.this, );
             //startActivity(jere_itiliate);
-            Toast.makeText(getApplicationContext(),"jere itilizate", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(),"Jere itilizatè", Toast.LENGTH_LONG).show();
         } else if (id == R.id.nav_list_visit) {
             //Intent list_visit= new Intent(ListFanmAnsentActivityEnt.this, );
             //startActivity(list_visit);
-            Toast.makeText(getApplicationContext(),"list vizit", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(),"Lis vizit", Toast.LENGTH_LONG).show();
         } else if (id == R.id.nav_list_acouchman_prevu) {
             //Intent acouchman_prevu= new Intent(ListFanmAnsentActivityEnt.this, );
             //startActivity(acouchman_prevu);
-            Toast.makeText(getApplicationContext(),"acouchman prevu", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(),"Kalandriye vaksinasyon", Toast.LENGTH_LONG).show();
         }else if (id == R.id.nav_list_vizit_par_matron) {
             //Intent vizit_par_matron= new Intent(ListFanmAnsentActivityEnt.this, );
             //startActivity(vizit_par_matron);

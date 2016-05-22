@@ -21,11 +21,7 @@
             <item
                 android:id="@+id/nav_list_acouchman_prevu"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Lis acouchman previ" />
-            <item
-                android:id="@+id/nav_list_vizit_par_matron"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Lis vizit pa matròn" />
+                android:title="Kalandriye vaksinasyon" />
         </menu>
     </item>
 

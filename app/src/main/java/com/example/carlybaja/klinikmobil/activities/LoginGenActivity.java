@@ -34,9 +34,9 @@ public class LoginGenActivity extends AppCompatActivity {
             Intent konektGen = new Intent(LoginGenActivity.this, ListFanmAnsentActivityEnt.class);
             startActivity(konektGen);
         }else if(inputUser.equals("pediatre") && inputPass.equals("4321")){
-            Toast.makeText(getApplicationContext(),"information timoun yo",Toast.LENGTH_LONG).show();
-           // Intent konektGen = new Intent(LoginGenActivity.this, ListFanmAnsentActivityEnt.class);
-           // startActivity(konektGen);
+            //Toast.makeText(getApplicationContext(),"information timoun yo",Toast.LENGTH_LONG).show();
+           Intent konektGen = new Intent(LoginGenActivity.this, LisTimounActivityEnt.class);
+            startActivity(konektGen);
         }else{
             Toast.makeText(getApplicationContext(),"sisteme nan pa rekonet information sa",Toast.LENGTH_LONG).show();
         }
