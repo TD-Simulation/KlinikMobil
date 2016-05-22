@@ -40,7 +40,8 @@
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
                     android:layout_alignLeft="@+id/editText"
-                    android:layout_alignStart="@+id/editText" />
+                    android:layout_alignStart="@+id/editText"
+                    android:textColor="@android:color/black" />
 
                 <EditText
                     android:layout_width="wrap_content"
@@ -64,7 +65,8 @@
                     android:layout_alignLeft="@+id/editText2"
                     android:layout_alignStart="@+id/editText2"
                     android:layout_alignParentRight="true"
-                    android:layout_alignParentEnd="true" />
+                    android:layout_alignParentEnd="true"
+                    android:textColor="@android:color/black" />
 
                 <EditText
                     android:layout_width="wrap_content"
@@ -75,7 +77,8 @@
                     android:layout_below="@+id/textView3"
                     android:layout_toRightOf="@+id/textView8"
                     android:layout_alignParentRight="true"
-                    android:layout_alignParentEnd="true" />
+                    android:layout_alignParentEnd="true"
+                    android:textColor="@android:color/black" />
 
                 <EditText
                     android:layout_width="wrap_content"
@@ -87,7 +90,8 @@
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
                     android:layout_alignLeft="@+id/editText4"
-                    android:layout_alignStart="@+id/editText4" />
+                    android:layout_alignStart="@+id/editText4"
+                    android:textColor="@android:color/black" />
 
                 <EditText
                     android:layout_width="wrap_content"
@@ -99,7 +103,8 @@
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
                     android:layout_alignLeft="@+id/editText5"
-                    android:layout_alignStart="@+id/editText5" />
+                    android:layout_alignStart="@+id/editText5"
+                    android:textColor="@android:color/black" />
 
                 <CheckBox
                     android:layout_width="wrap_content"
@@ -229,7 +234,8 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
-            android:layout_below="@+id/textView4" />
+            android:layout_below="@+id/textView4"
+            android:textColor="@android:color/black" />
 
         <EditText
             android:layout_width="wrap_content"
@@ -241,7 +247,8 @@
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
+            android:layout_alignParentStart="true"
+            android:textColor="@android:color/black" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -263,7 +270,8 @@
             android:gravity="center"
             android:layout_below="@+id/editText8"
             android:layout_alignRight="@+id/editText8"
-            android:layout_alignEnd="@+id/editText8" />
+            android:layout_alignEnd="@+id/editText8"
+            android:textColor="@android:color/black" />
 
         <TextView
             android:layout_width="wrap_content"
