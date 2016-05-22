@@ -1,4 +1,4 @@
-package com.example.carlybaja.klinikmobil;
+package com.example.carlybaja.klinikmobil.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -17,6 +17,8 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
+
+import com.example.carlybaja.klinikmobil.R;
 
 public class LisTimounActivityEnt extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {

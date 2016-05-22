@@ -9,7 +9,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.carlybaja.klinikmobil.ListFanmAnsentActivityEnt"
+    tools:context=".activities.ListFanmAnsentActivityEnt"
     tools:showIn="@layout/app_bar_list_fanm_ansent_activity_ent">
     <ListView
         android:layout_width="match_parent"

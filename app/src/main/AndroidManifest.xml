@@ -89,10 +89,10 @@
                 android:value=".activities.MainActivity" />
         </activity>
         <activity
-            android:name=".ListFanmAnsentActivityEnt"
+            android:name=".activities.ListFanmAnsentActivityEnt"
             android:label="@string/title_activity_list_fanm_ansent_activity_ent"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".NewFanmActivityEnt" />
+        <activity android:name=".activities.NewFanmActivityEnt" />
         <activity
             android:name=".activities.LoginEnterpriseActivity"
             android:label="@string/title_activity_login_enterprise"
@@ -110,11 +110,11 @@
                 android:value=".activities.MainActivity" />
         </activity>
         <activity
-            android:name=".LisTimounActivityEnt"
+            android:name=".activities.LisTimounActivityEnt"
             android:label="Lis Timoun"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".NewTimounActivity"
+            android:name=".activities.NewTimounActivity"
             android:label="Nouvo Timoun"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
