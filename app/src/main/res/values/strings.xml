@@ -27,4 +27,7 @@
     <string name="title_activity_list_entreprise">Lis Enstitisyon</string>
     <string name="title_activity_lis_timoun_activity_ent">List Timoun</string>
     <string name="title_activity_new_timoun">Nouvo Timoun</string>
+    <string name="tv_firstname">Firstname</string>
+    <string name="tv_lastname">Lastname</string>
+    <string name="tv_phone">Phone</string>
 </resources>

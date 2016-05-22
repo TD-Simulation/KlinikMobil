@@ -13,6 +13,9 @@ import java.util.List;
 public class EnrolmentW {
 
     String womanId;
+    String firstname;
+    String lastname;
+    String phone;
     int menarcheAge;
     int ageOfFirstSexualRelation;
     Boolean dysmenorrhea;
@@ -31,8 +34,35 @@ public class EnrolmentW {
 
     }
 
-    public EnrolmentW(String womanId, int menarcheAge, int ageOfFirstSexualRelation, Boolean dysmenorrhea, Boolean infertilite, String DDR, String pregnancyTest, String DPA, Boolean multiplePregnancy, Boolean preEclampsia, Boolean pregnancyBleeding, String notes, String userdID) {
+    public String getFirstname() {
+        return firstname;
+    }
+
+    public void setFirstname(String firstname) {
+        this.firstname = firstname;
+    }
+
+    public String getLastname() {
+        return lastname;
+    }
+
+    public void setLastname(String lastname) {
+        this.lastname = lastname;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public EnrolmentW(String womanId, String firstname, String lastname, String phone , int menarcheAge, int ageOfFirstSexualRelation, Boolean dysmenorrhea, Boolean infertilite, String DDR, String pregnancyTest, String DPA, Boolean multiplePregnancy, Boolean preEclampsia, Boolean pregnancyBleeding, String notes, String userdID) {
         this.womanId = womanId;
+        this.firstname = firstname;
+        this.lastname = lastname;
+        this.phone = phone;
         this.menarcheAge = menarcheAge;
         this.ageOfFirstSexualRelation = ageOfFirstSexualRelation;
         this.dysmenorrhea = dysmenorrhea;
@@ -154,7 +184,21 @@ public class EnrolmentW {
 
     public static ArrayList<EnrolmentW> getFakeWomen(){
         ArrayList<EnrolmentW> women = new ArrayList<>();
-        women.add(new EnrolmentW("W-001",12,16,false,false,"04-10-2016","04-17-2016","04-22-2016",false, false, false,"N/A","djason"));
+        women.add(new EnrolmentW("W-001","Mona","Augustin","+509434567",12,16,false,false,"04-10-2016","04-17-2016","04-22-2016",false, false, false,"N/A","djason"));
+        women.add(new EnrolmentW("W-002","Pierre","Augustin","+509434567",14,16,false,false,"04-10-2016","04-17-2016","04-22-2016",false, false, false,"N/A","djason"));
+        women.add(new EnrolmentW("W-004","Pierre","Therese","+509464567",14,16,false,false,"04-10-2016","04-17-2016","04-22-2016",false, false, false,"N/A","djason"));
+        women.add(new EnrolmentW("W-005","Pierre","Jules","+509466567",14,16,false,false,"04-10-2016","04-17-2016","04-22-2016",false, false, false,"N/A","djason"));
+        women.add(new EnrolmentW("W-007","Walter","Augustin","+5094364567",14,16,false,false,"04-10-2016","04-17-2016","04-22-2016",false, false, false,"N/A","djason"));
+
+        return women;
+    }
+
+
+    public static ArrayList<EnrolmentW> getFakeWomenByMatron(){
+        ArrayList<EnrolmentW> women = new ArrayList<>();
+        women.add(new EnrolmentW("W-001","Mona","Augustin","+509434567",12,16,false,false,"04-10-2016","04-17-2016","04-22-2016",false, false, false,"N/A","djason"));
+        women.add(new EnrolmentW("W-005","Pierre","Jules","+509466567",14,16,false,false,"04-10-2016","04-17-2016","04-22-2016",false, false, false,"N/A","djason"));
+
         return women;
     }
 }
