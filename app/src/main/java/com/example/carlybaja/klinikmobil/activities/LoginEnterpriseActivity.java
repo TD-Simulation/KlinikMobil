@@ -22,6 +22,7 @@ public class LoginEnterpriseActivity extends AppCompatActivity {
 
 
     public void onLogEntreprise(View v){
+
         Intent j = new Intent(LoginEnterpriseActivity.this, ListEntrepriseActivity.class);
         startActivity(j);
     }
