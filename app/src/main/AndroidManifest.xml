@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.carlybaja.klinikmobil">
+
     <uses-permission android:name="android.permission.CALL_PHONE" />
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_icon_nav"
@@ -59,7 +61,9 @@
                 android:value=".activities.MainActivity" />
         </activity>
         <activity android:name=".activities.KreyeKontMatronActivity" />
-        <activity android:name=".activities.ListFanmMatronActivity">
+        <activity
+            android:name=".activities.ListFanmMatronActivity"
+            android:label="@string/title_activity_list_fanm_matrom">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".activities.MainActivity" />
@@ -116,7 +120,20 @@
         <activity
             android:name=".activities.NewTimounActivity"
             android:label="Nouvo Timoun"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.StatistikActivity"
+            android:label="@string/title_activity_statistik"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.KreyeEntreprizActivity"
+            android:label="@string/title_activity_kreye_entrepriz"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.MainActivity" />
+
+        </activity>
     </application>
 
 </manifest>

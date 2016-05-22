@@ -34,19 +34,23 @@ public class ListFanmMatronActivity extends AppCompatActivity {
         // Attached the adapter to the listview
         listViewFanm.setAdapter(adapter);
 
-        //ListView item click listener
-        listViewFanm.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                TextView mtvPhone = (TextView)findViewById(R.id.tvPhone);
-             //   Toast.makeText(getApplicationContext(), position, Toast.LENGTH_LONG).show();
-                Intent callIntent = new Intent((Intent.ACTION_CALL));
-                callIntent.setData(Uri.parse(mtvPhone.toString()));
-                if (callIntent.resolveActivity(getPackageManager()) != null) {
-                    startActivity(callIntent);
-                }
 
-            }
-        });
+    }
+
+    public void onIm(View v){
+        TextView tvPhone= (TextView)findViewById(R.id.tvPhone);
+        assert tvPhone != null;
+        String t= tvPhone.getText().toString();
+        //make a call
+        Intent callIntent = new Intent((Intent.ACTION_DIAL));
+        callIntent.setData(Uri.parse("tel:"+t));
+        if(callIntent.resolveActivity(getPackageManager()) != null){
+            startActivity(callIntent);
+        }
+        //for sms
+        /*Uri uri = Uri.parse("smsto:"+t);
+        Intent it = new Intent(Intent.ACTION_SENDTO, uri);
+        it.putExtra("sms_body", "The SMS text");
+        startActivity(it);*/
     }
 }

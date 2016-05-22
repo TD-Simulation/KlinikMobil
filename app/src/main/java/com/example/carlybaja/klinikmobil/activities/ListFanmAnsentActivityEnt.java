@@ -1,6 +1,9 @@
 package com.example.carlybaja.klinikmobil.activities;
 
+import android.Manifest;
+import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -73,16 +76,18 @@ public class ListFanmAnsentActivityEnt extends AppCompatActivity
         assert tvPhone != null;
         String t= tvPhone.getText().toString();
         //make a call
-        Intent callIntent = new Intent((Intent.ACTION_CALL));
-        callIntent.setData(Uri.parse("tel:"+t));
-        if(callIntent.resolveActivity(getPackageManager()) != null){
-            startActivity(callIntent);
+           Intent callIntent = new Intent((Intent.ACTION_DIAL));
+           callIntent.setData(Uri.parse("tel:"+t));
+           if(callIntent.resolveActivity(getPackageManager()) != null){
+             startActivity(callIntent);
         }
         //for sms
         /*Uri uri = Uri.parse("smsto:"+t);
         Intent it = new Intent(Intent.ACTION_SENDTO, uri);
         it.putExtra("sms_body", "The SMS text");
-        startActivity(it);*/
+        startActivity(it);
+
+        */
     }
 
     @Override
