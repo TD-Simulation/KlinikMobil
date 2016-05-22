@@ -93,10 +93,12 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_ed) {
             Intent i = new Intent(MainActivity.this,ed.class);
             startActivity(i);
+            overridePendingTransition(android.R.anim.slide_out_right, android.R.anim.slide_in_left);
 
         } else if (id == R.id.nav_detay) {
             Intent i = new Intent(MainActivity.this,detay.class);
             startActivity(i);
+            overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right);
 
         }
 
