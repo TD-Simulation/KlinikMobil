@@ -10,8 +10,15 @@ import android.support.v7.widget.SearchView;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.View;
+import android.widget.ListView;
 
 import com.example.carlybaja.klinikmobil.R;
+import com.example.carlybaja.klinikmobil.adapters.EnrolmentWAdapter;
+import com.example.carlybaja.klinikmobil.adapters.EnterprisesAdapter;
+import com.example.carlybaja.klinikmobil.models.EnrolmentW;
+import com.example.carlybaja.klinikmobil.models.Enterprise;
+
+import java.util.ArrayList;
 
 public class ListEntrepriseActivity extends AppCompatActivity {
 
@@ -22,6 +29,14 @@ public class ListEntrepriseActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        ArrayList<Enterprise> enterprises = Enterprise.getFakeEntreprise();
+        // Created the adapter
+        EnterprisesAdapter adapter = new EnterprisesAdapter(this, enterprises);
+        // Find the listview
+        ListView lvEnterprise = (ListView) findViewById(R.id.lvEnterprise);
+        // Attached the adapter to the listview
+        lvEnterprise.setAdapter(adapter);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
