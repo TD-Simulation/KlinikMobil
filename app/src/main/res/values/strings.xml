@@ -25,4 +25,6 @@
     <string name="title_login_matron">Aksè Matron</string>
     <string name="srch">search</string>
     <string name="title_activity_list_entreprise">Lis Enstitisyon</string>
+    <string name="title_activity_lis_timoun_activity_ent">LisTimounActivityEnt</string>
+    <string name="title_activity_new_timoun">NewTimounActivity</string>
 </resources>
