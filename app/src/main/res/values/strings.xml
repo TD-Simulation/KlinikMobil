@@ -33,4 +33,23 @@
     <string name="tv_phone">Phone</string>
     <string name="title_activity_statistik">StatistikActivity</string>
     <string name="title_activity_kreye_entrepriz">KreyeEntreprizActivity</string>
+    <string name="bien_manje">Lèw ansent ou pa bezwen tiye tèt ou pou ap manje pou 2, sak pi enpòtan se manje byen obsève yon rejim byen eklibre pou gwosès ou ka pase an byen. Li enpòtan pou privilije legum ak fwi byen ki byen fre epi bwè anpil ji fwi. Asid folik patikilyèman enpòtan pou devlopman nan sèvo a ak mwal epinyè timoun nan. Malgre prezans nan asid folik nan legum ak an patikilye legum fèy vèt, li souvan rekòmande pou fanm ansent yo pran yon sipleman konsantre.</string>
+    <string name="danje">Li enpotan pou yon fanm ansent rekonèt kèk siy enkyetan ki ka mete lavil ak lavi ti bebe a an danje konsa lap gentan poul rele doktel ou nan kay fanmsaj li a tan.
+-	Ipètansyon: majorite fanm ansent toujou soufri maladi tansyon nan peryod gwosès la se pousa li toujou enpotan pou doktè, enfimyè ou fanmsaj toujou kontwole tansyon fanm ansent lan nan chak vizit paske ipètansyon se maladi ki koz anpil fanm mouri pandan gwosès la ou pandan akouchman.
+-	Pèt de san : siw remake wap pèdi kèk ti san leje sa ka di ou fenk ansent men saka di tou se yon anons pou yon foskouch donk li trè enpotan pouw al konsite doktèw.
+-	Pèdi dlo nan vajin: si pandanw ansent ou remake wap pèdi dlo nan vajin se yon risk akouchman prematire donk li enpotan pouw al nan sant de sante ki pi prew la oubyen matron ou.
+-	Siw wè flou : ou ansent epi ou rete konsa ou wè tout bagay flou epiw gen gwo tèt fè mal se yon risk eklanmsi fok ou kouri prese prese nan sant ki pi prew la.
+-	Bebe a pa bouje ankò : siw bebe a te konn bouje ou rete konsa li pa bouje anko se kouri nan yon sant pou fè  yon ekografi paske bebe a ka mouri andanw.
+</string>
+    <string name="bagay">Lè yon moun ansent pou premye fwa a, li toujou bezwen bonjan konsèy ak enfòmasyon ki pou edel pandan tout gwosès la. Pafwa fanmchay yo ak obstetrisyen yo konn pa gen refleks pou yo fè yon  rezime sou tout bagay fanm yo dwe konnen pou y opa mete lavi yo ak lavi ti bebe a an danje.
+Men kèk bagay ou pa gendwa fè lèw ansent.
+1-	Pa pran ankenn medikaman san ou pa al konsite yon doktè
+2-	Alkòl ak dwòg pa dwe zanmiw
+3-	Pa manje vyann ki pa byen kwit, ni pa bwè lèt ki kru.
+4-	Pran repo chak fwa kòw mandew sa se trè enpòtan.
+5-	Pa monte cheval ni fè twò gwo efwò pou pa mete lavi ti bebe a an danje.
+6-	Pa itilize ankenn pwodwi chimik pou tiye moustik ak lot bèt
+7-	Pa pase pwodwi sou kòw pou tach ak bouton pandan gwosès la.
+</string>
+    <string name="sante">Lèw ansent se lè pou kòmanse reyèlman pran swen tèt ou, fizikman ak sikolojikman. Chans ou genyen pou gen yon gwosès trankil ak bay nesans ak yon tibebe ki an sante ap ogmante siyifikativman si ou swiv règleman sa yo ki trè senp e trè fasil. </string>
 </resources>

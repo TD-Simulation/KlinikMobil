@@ -11,6 +11,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 import com.example.carlybaja.klinikmobil.R;
 
@@ -54,11 +55,11 @@ public class MainActivity extends AppCompatActivity
         startActivity(i);
         overridePendingTransition(android.R.anim.slide_out_right, android.R.anim.slide_in_left);
     }
-   public void onEstatistik(View v){
-       Intent i = new Intent(MainActivity.this, StatistikActivity.class);
+
+    public void onEstatistik(View v){
+        Intent i = new Intent(MainActivity.this, EstatistikActivity.class);
        startActivity(i);
-       overridePendingTransition(android.R.anim.slide_out_right, android.R.anim.slide_in_left);
-   }
+        }
 
     @Override
     public void onBackPressed() {
