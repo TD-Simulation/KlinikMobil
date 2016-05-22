@@ -40,7 +40,7 @@
         android:id="@+id/button"
         android:background="@drawable/selector"
         android:layout_gravity="left|center_horizontal"
-        android:onClick="checkLogin"
+        android:onClick="onKonekteFanm"
         android:textColor="#ffffff"
         android:layout_marginLeft="15dp" />
     <Button
