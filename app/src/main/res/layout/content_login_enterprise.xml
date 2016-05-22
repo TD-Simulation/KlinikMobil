@@ -13,7 +13,7 @@
         android:drawableLeft="@drawable/ic_user"
         android:hint="Itilizatè"
         android:layout_marginTop="170dp"
-        android:textColor="#FFF"
+        android:textColor="@android:color/black"
         android:paddingLeft="0dp"
         android:drawablePadding="5dp"
         android:textColorHint="#999"/>
@@ -27,7 +27,7 @@
         android:drawableLeft="@drawable/ic_lock"
         android:hint="Kòd sekrè"
         android:layout_marginTop="10dp"
-        android:textColor="#FFF"
+        android:textColor="@android:color/black"
         android:paddingLeft="0dp"
         android:drawablePadding="5dp"
         android:textColorHint="#999"/>
