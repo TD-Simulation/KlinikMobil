@@ -1,15 +1,36 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.carlybaja.klinikmobil.activities.EstatistikActivity"
-    tools:showIn="@layout/activity_estatistik">
-
-</RelativeLayout>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="25dp">
+            <ImageView
+                android:id="@+id/imageViewObrazekGeometrie1"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:src="@drawable/src_grafik_one" />
+            <ImageView
+                android:id="@+id/imageViewObrazekGeometrie"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:src="@drawable/src_grafik_deux" />
+            <ImageView
+                android:id="@+id/imageViewObra"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:src="@drawable/src_grafik_km" />
+            <ImageView
+                android:id="@+id/imageViewObrazekGeometrie2"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:src="@drawable/src_grafik_pr" />
+            <ImageView
+                android:id="@+id/imageViewObra2"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:src="@drawable/src_grafik_tr" />
+        </LinearLayout>
+</ScrollView>
